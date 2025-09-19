@@ -10,13 +10,13 @@ Steps Involved:
 
 CREATE S3 BUCKETS:
 
- 1.Input Bucket - Stores the text file(.txt)
+1.Input Bucket - Stores the text file(.txt)
  
- 2.Output Bucket - Stores the generated mp3 speech files.
+2.Output Bucket - Stores the generated mp3 speech files.
  
 LAMBDA TRIGGER 
 
- 1. When you upload a .txt file to the input bucket, it automatically triggers, it triggers the lambda function.
+1. When you upload a .txt file to the input bucket, it automatically triggers, it triggers the lambda function.
  
  CREATE LAMBDA FUNCTION
  
