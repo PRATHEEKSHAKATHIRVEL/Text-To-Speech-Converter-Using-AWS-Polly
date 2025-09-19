@@ -10,9 +10,9 @@ Steps Involved:
 
 CREATE S3 BUCKETS:
 
-1.Input Bucket - Stores the text file(.txt)
+1. Input Bucket - Stores the text file(.txt)
  
-2.Output Bucket - Stores the generated mp3 speech files.
+2. Output Bucket - Stores the generated mp3 speech files.
  
 LAMBDA TRIGGER 
 
@@ -37,16 +37,16 @@ ATTACH  IAM ROLES
     
  CONFIGURE S3 EVENT NOTIFICATION
   
- 1.Create an event notification with EVENT TYPE - PUT.
+ 1. Create an event notification with EVENT TYPE - PUT.
   
  TEST THE SETUP
   
- 1.Upload the text file into the input bucket.
+ 1. Upload the text file into the input bucket.
   
  VERIFY WORKFLOW
   
- 1.Check the output bucket for the MP3 file.
+ 1. Check the output bucket for the MP3 file.
   
- 2.Download and play the file.  
+ 2. Download and play the file.  
 
 
