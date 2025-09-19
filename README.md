@@ -18,15 +18,15 @@ LAMBDA TRIGGER
 
 1. When you upload a .txt file to the input bucket, it automatically triggers, it triggers the lambda function.
  
- CREATE LAMBDA FUNCTION
+CREATE LAMBDA FUNCTION
  
- 1. Create a fucntion in AWS Lambda.
+1. Create a fucntion in AWS Lambda.
 
- 2. Upload the Python code that reads the file from S3, calls polly, and stores output in MP3.
+2. Upload the Python code that reads the file from S3, calls polly, and stores output in MP3.
 
- ATTACH  IAM ROLES
+ATTACH  IAM ROLES
  
- 1. Attach IAM roles with lambda function
+1. Attach IAM roles with lambda function
     
       S3: GetObject - Input Bucket
     
@@ -41,7 +41,7 @@ LAMBDA TRIGGER
   
  TEST THE SETUP
   
-  1.Upload the text file into the input bucket.
+ 1.Upload the text file into the input bucket.
   
  VERIFY WORKFLOW
   
