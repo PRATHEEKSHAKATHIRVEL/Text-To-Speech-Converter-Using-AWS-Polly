@@ -1,10 +1,10 @@
 This project demonstrates how to use Amazon Polly for converting text to speech 
 
 AWS SERVICES USED 
-1. AWS LAMBDA
-2. AWS POLLY
+1. IAM
+2. AWS LAMBDA
 3. AWS S3
-4. IAM
+4. AWS POLLY
 
  HOW TO RUN 
 
@@ -37,16 +37,16 @@ CREATE LAMBDA FUNCTION
     
   CONFIGURE S3 EVENT NOTIFICATION
   
-  1.Create an event notification with EVENT TYPE - PUT.
+   1.Create an event notification with EVENT TYPE - PUT.
   
   TEST THE SETUP
   
-  1.Upload the text file into the input bucket.
+   1.Upload the text file into the input bucket.
   
   VERIFY WORKFLOW
   
-  1.Check the output bucket for the MP3 file.
+   1.Check the output bucket for the MP3 file.
   
-  2.Download and play the file.  
+   2.Download and play the file.  
 
 
