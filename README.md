@@ -6,7 +6,7 @@ AWS SERVICES USED
 3. AWS S3
 4. AWS POLLY
 
- HOW TO RUN 
+Steps Involved:
 
 CREATE S3 BUCKETS:
 
@@ -16,9 +16,9 @@ CREATE S3 BUCKETS:
  
 LAMBDA TRIGGER 
 
- 1.When you upload a .txt file to the input bucket, it automatically triggers, it triggers the lambda function.
+ 1. When you upload a .txt file to the input bucket, it automatically triggers, it triggers the lambda function.
  
-CREATE LAMBDA FUNCTION
+ CREATE LAMBDA FUNCTION
  
  1. Create a fucntion in AWS Lambda.
 
@@ -35,18 +35,18 @@ CREATE LAMBDA FUNCTION
       polly: SynthesizeSpeech - for using polly
     
     
-  CONFIGURE S3 EVENT NOTIFICATION
+ CONFIGURE S3 EVENT NOTIFICATION
   
-   1.Create an event notification with EVENT TYPE - PUT.
+ 1.Create an event notification with EVENT TYPE - PUT.
   
-  TEST THE SETUP
+ TEST THE SETUP
   
-   1.Upload the text file into the input bucket.
+  1.Upload the text file into the input bucket.
   
-  VERIFY WORKFLOW
+ VERIFY WORKFLOW
   
-   1.Check the output bucket for the MP3 file.
+ 1.Check the output bucket for the MP3 file.
   
-   2.Download and play the file.  
+ 2.Download and play the file.  
 
 
